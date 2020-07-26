@@ -2,15 +2,35 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.container {
+.container-fluid {
     text-align: center;
     color: white;
     padding: 90px 0
+    width: 120vw;
+    height: 100vh;
+   
 }
 
 div#mouse {
     position: absolute;
     bottom: 10px;
-    width: 80%;
+    width: 100%;
     
   }
+
+.home {
+
+    background-image: url(../backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 200px;
+    margin-bottom: 10vh;
+    
+}
+
+
+.aboutUs {
+    background-color: yellow;
+}
+

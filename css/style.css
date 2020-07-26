@@ -1,0 +1,16 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 90px 0
+}
+
+div#mouse {
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    
+  }

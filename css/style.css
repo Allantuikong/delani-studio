@@ -5,10 +5,9 @@ body {
 .container-fluid {
     text-align: center;
     color: white;
-    padding: 90px 0
-    width: 120vw;
-    height: 100vh;
-   
+    padding: 10 px 
+    width: 140vw;
+    height: 100vh;  
 }
 
 div#mouse {
@@ -25,7 +24,8 @@ div#mouse {
     background-repeat: no-repeat;
     height: 100%;
     padding-top: 200px;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+    width: 100%;
     
 }
 
@@ -33,8 +33,9 @@ div#mouse {
     background-color: white;
     color: black;
     text-align: center;
+    padding: 1%;
+    padding-bottom: 3%;
     width: 100%;
-    padding-bottom: 5%;
 
 }
 
@@ -44,9 +45,19 @@ div#mouse {
     background-repeat: no-repeat;
     height: 100%;
     padding-top: 100px;
-    padding-bottom:5%;
+    padding-bottom:8%;
     margin-bottom: 10vh;
     width: 100%;
+}
+
+.whatWeDo {
+    margin-top: 30px;
+    color: black;
+    
+}
+
+.design, .development, .management  {
+    display: none
 }
 
 

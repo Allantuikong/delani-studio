@@ -8,6 +8,7 @@ body {
     padding: 10 px 
     width: 140vw;
     height: 100vh;  
+
 }
 
 div#mouse {
@@ -53,6 +54,7 @@ div#mouse {
 .whatWeDo {
     margin-top: 30px;
     color: black;
+    padding-bottom: 10%;
     
 }
 
@@ -60,5 +62,97 @@ div#mouse {
     display: none
 }
 
+.portfolio {
+    width: 10%
+    margin: auto;
+    margin-bottom: 10vh;
+    color:black;
+}
+
+.portfolio-images {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.portfolio img {
+    padding-top: 20%;
+    width: 70%;
+    margin: 3%;
+    padding: 5%;
+}
 
 
+.work4, .work3, .work2, .work1, .work5, .work6, .work7,.work8 {
+    position: relative;
+    display: list-item;
+    margin: 0%;
+    color: black;
+} 
+
+.work4caption,
+.work3caption,
+.work2caption,
+.work1caption,
+.work5caption,
+.work6caption,
+.work7caption,
+.work8caption {
+    width: 85%;
+    height: 150px;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 37px;
+    margin-top: -10px;
+    border: 5px solid white;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgba(224, 208, 208, 0.7);
+    display: none;
+}
+
+.contact {
+    background-image: url(../backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15vh;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+input {
+    display: inline;
+    width: 35%;
+    height: 37px;
+    border-width: 1px 1px 2px 1px;
+    border-color: white;
+    background: transparent;
+}
+
+textarea {
+    display: inline;
+    height: 300px;
+    width: 70%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
+    background: transparent;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 700;
+}
+
+input[type=submit] {
+    border-width: 3px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}

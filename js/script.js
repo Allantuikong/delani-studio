@@ -47,6 +47,9 @@ $(document).ready(function() {
         $(".work8caption").toggle();
     });
 
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/xrgyrjer"})
+    
     $("form").submit(function(event) {
         event.preventDefault();
         let name = document.getElementById("name").value;

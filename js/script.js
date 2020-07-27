@@ -47,8 +47,7 @@ $(document).ready(function() {
         $(".work8caption").toggle();
     });
 
-    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-    formbutton("create", {action: "https://formspree.io/xrgyrjer"})
+   
     
     $("form").submit(function(event) {
         event.preventDefault();
@@ -56,4 +55,7 @@ $(document).ready(function() {
         alert("Thank you for reaching out to us " + name + "!" + " Your message is well recieved :).");
         document.getElementById("contactForm").reset();
     });
+
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/xrgyrjer"})
 });

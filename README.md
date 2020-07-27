@@ -18,7 +18,7 @@ Set to run on all browsers supporting JavaScript.
 
 - When user hovers over the portfolio page, a detail of the name of the project pops up.
 
-- When a user inputs their name and sends message, the message is delivered to Delani admins through MailChimp.
+- When a user inputs their name and sends message, the message is delivered to Delani admins through Formspree.
 
 ## Technologies Used
 
@@ -28,9 +28,11 @@ Set to run on all browsers supporting JavaScript.
 
 - Google fonts pack
 
+- Formspree embedded
+
 ## Known Bugs
 
-- Mailchimp server may be slow at times; be patient.
+- Formspree server may be slow at times; be patient.
 
 ## Contact Information
 

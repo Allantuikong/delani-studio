@@ -1,4 +1,4 @@
- Project Name: Akan Name Generator
+## Project Name: Akan Name Generator
 
 ## Project Description
 
@@ -41,3 +41,4 @@ Phone Number: _+254708785737_
 ## Link to deployed site
 
 [Live link](<https://allantuikong.github.io/akan-name-generator/>)
+#

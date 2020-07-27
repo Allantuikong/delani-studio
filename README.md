@@ -1,12 +1,12 @@
-## Project Name: Akan Name Generator
+# Project Name: Delani Studio Website
 
 ## Project Description
 
-A web application designed to take a user's birthday and calculate the day of the week they were born. Based on the day and depending on user's gender, the application outputs their *Akan names*
+This is a landing page for a fictional studio called *Delani Studio*. A Description of the main services offered by the studio are available and well elaborated. A portfolio section is also included with previsously done work for user's perusal. There is also a feedback section where users can send messages to the admins of delani Studio.
 
 ## Inspiration
 
-Ghanian culture: _Akan names are derived from a Ghanian culture where children's first names is a day name depending on the day of the week they were born._ This webpage aims at exploring this name giving technique.
+Marketing has gone digital and this is a sure way to reach out to potential clients as well as obtain valuable feedback and resolve any customer care concerns.
 
 ## Setup Instruction
 
@@ -14,19 +14,23 @@ Set to run on all browsers supporting JavaScript.
 
 ## BDD
 
-- When provided with a birthdate, the program will compute the day of birth
+- When user's click on icons provided, the user should get elaboration of what the icon intended to convey
 
-- When gender is added, the program should generate an Akan name based on the input information.
+- When user hovers over the portfolio page, a detail of the name of the project pops up.
+
+- When a user inputs their name and sends message, the message is delivered to Delani admins through MailChimp.
 
 ## Technologies Used
 
 - Programming language: JavaScript
 
-- HTML, CSS Custom Stylesheets, Bootstrap
+- HTML, CSS Custom Stylesheets, Bootstrap, jQuery
+
+- Google fonts pack
 
 ## Known Bugs
 
-- The calender may take long to load. If so, input Date of birth manually
+- Mailchimp server may be slow at times; be patient.
 
 ## Contact Information
 

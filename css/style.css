@@ -3,16 +3,13 @@ body {
 }
 
 .container-fluid {
-    text-align: center;
+    width: 100vw;
+    height: 100vh;
     color: white;
-    padding: 10 px 
-    width: 140vw;
-    height: 100vh;  
-
 }
 
 div#mouse {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     width: 100%;
     
@@ -27,6 +24,7 @@ div#mouse {
     padding-top: 200px;
     margin-bottom: 5vh;
     width: 100%;
+    text-align: center;
     
 }
 
@@ -49,6 +47,7 @@ div#mouse {
     padding-bottom:8%;
     margin-bottom: 10vh;
     width: 100%;
+    text-align: center;
 }
 
 .what-we-do {
@@ -101,8 +100,12 @@ div#mouse {
     color: black;
     font-size: 21px;
     font-weight: 700;
-    background-color:tomato
-    display: none;
+    background-color: wheat
+    
+}
+
+.work4caption ,.work3caption,.work2caption,.work1caption,.work5caption,.work6caption,.work7caption,.work8caption {
+display: none;
 }
 
 .contact {
@@ -150,5 +153,9 @@ input[type=submit] {
 }
 
 .footer {
+    color: black;
+}
+
+#title {
     color: black;
 }

@@ -2,56 +2,56 @@ $(document).ready(function() {
     $("#design, .design").click(function() {
         $("#design").toggle();
         $(".design").toggle();
-        document.querySelector("h4").style.fontWeight = "700";
+        document.querySelector("h4")
     });
 
     $("#development, .development").click(function() {
         $("#development").toggle();
         $(".development").toggle();
-        $("h4").css("font-weight", "700");
+        $("h4");
 
     });
 
     $("#management, .management").click(function() {
         $("#management").toggle();
         $(".management").toggle();
-        $("h4").css("font-weight", "700");
+        $("h4");
     });
 
 
     $(".work4").hover(function() {
-        $(".work4caption").toggle("7000ms");
+        $(".work4caption").toggle();
     });
 
     $(".work3").hover(function() {
-        $(".work3caption").toggle("7000ms");
+        $(".work3caption").toggle();
     });
 
     $(".work2").hover(function() {
-        $(".work2caption").toggle("7000ms");
+        $(".work2caption").toggle();
     });
 
     $(".work1").hover(function() {
-        $(".work1caption").toggle("7000ms");
+        $(".work1caption").toggle();
     });
     $(".work5").hover(function() {
-        $(".work5caption").toggle("7000ms");
+        $(".work5caption").toggle();
     });
     $(".work6").hover(function() {
-        $(".work6caption").toggle("7000ms");
+        $(".work6caption").toggle();
     });
     $(".work7").hover(function() {
-        $(".work7caption").toggle("7000ms");
+        $(".work7caption").toggle();
     });
 
     $(".work8").hover(function() {
-        $(".work8caption").toggle("7000ms");
+        $(".work8caption").toggle();
     });
 
-    $("form").submit(function(e) {
-        e.preventDefault();
-        var name = document.getElementById("name").value;
-        alert("Thank you for reaching out to us " + name + "!" + " We have received your message.");
+    $("form").submit(function(event) {
+        event.preventDefault();
+        let name = document.getElementById("name").value;
+        alert("Thank you for reaching out to us " + name + "!" + " Your message is well recieved :).");
         document.getElementById("contactForm").reset();
     });
 });

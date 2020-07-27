@@ -36,7 +36,7 @@ Phone Number: _+254708785737_
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
+[MIT](https://raw.githubusercontent.com/Allantuikong/delani-studio/master/LICENSE)
 
 ## Link to deployed site
 

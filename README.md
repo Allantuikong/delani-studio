@@ -45,4 +45,3 @@ Phone Number: _+254708785737_
 ## Link to deployed site
 
 [Live link](<https://allantuikong.github.io/delani-studio/>)
-

@@ -81,7 +81,6 @@ div#mouse {
     padding: 5%;
 }
 
-
 .work4, .work3, .work2, .work1, .work5, .work6, .work7,.work8 {
     position: relative;
     display: list-item;
@@ -89,14 +88,7 @@ div#mouse {
     color: black;
 } 
 
-.work4caption,
-.work3caption,
-.work2caption,
-.work1caption,
-.work5caption,
-.work6caption,
-.work7caption,
-.work8caption {
+.work4caption,.work3caption,.work2caption,.work1caption,.work5caption,.work6caption,.work7caption,.work8caption {
     width: 85%;
     height: 150px;
     position: absolute;
@@ -109,7 +101,7 @@ div#mouse {
     color: black;
     font-size: 21px;
     font-weight: 700;
-    background-color: rgba(224, 208, 208, 0.7);
+    background-color:tomato
     display: none;
 }
 

@@ -18,7 +18,6 @@ $(document).ready(function() {
         $("h4");
     });
 
-
     $(".work4").hover(function() {
         $(".work4caption").toggle();
     });
